@@ -1,0 +1,11 @@
+name: practice
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-slim
+    steps:
+      - name: greetings
+        run: echo "hello world i am best in the world"
+      - name: bye bye
+        run: echo "thanks for listening"
+        
